@@ -1,2 +1,0 @@
-# dylanlollol.github.io
-lol
