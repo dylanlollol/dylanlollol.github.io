@@ -6,11 +6,15 @@
 
 <button id="button" type="button">Click now!</button>
  
- <audio id="clicksound" src="ka-ching.mp3"></audio>
- <script>
+<audio id="clicksound" src="ka-ching.mp3"></audio>
+<audio id="loopedsound" src="omfg.mp3" loop></audio>
+
+<script>
 document.getElementById('button').addEventListener('click', function() {
  var audio = document.getElementById("clicksound");
  audio.play();
+ var loopedAudio = document.getElementById("loopedsound");
+ loopedAudio.play();
  alert('please enter password before continuing');
  });
 </script>
